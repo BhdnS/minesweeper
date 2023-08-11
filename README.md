@@ -1,1 +1,3 @@
-https://bhdns.github.io/minesweeper/
+# Minesweeper
+
+[Minesweeper](https://bhdns.github.io/minesweeper/)
