@@ -1,0 +1,70 @@
+@media (max-width: 1000px) {
+
+	body {
+		overflow: hidden;
+	}
+
+	.title {
+		margin: 10px 0px 10px 0px;
+	}
+
+	.swiper {
+		margin: 10px 0px 10px 0px;
+	}
+
+	#rangeValue {
+		margin: 0px 0px 10px 0px;
+	}
+
+	#timer {
+		padding: 10px 0px 0px 0px;
+	}
+
+	.lvl {
+		margin: auto 50px;
+	}
+
+	.subject {
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+
+	.box {
+		padding: 0px 0px 20px 0px;
+	}
+
+	.game__over {
+		font-size: 5rem;
+		width: 400px;
+		height: 500px;
+		padding: 0px 0px 200px 0px;
+	}
+
+	.field__btn-hard {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 1.3rem;
+	}
+
+}
+
+@media (max-width: 499px) {
+
+	.field__hard {
+		grid-template-columns: repeat(25, 13px);
+		gap: 1px;
+		font-size: 1.3rem;
+	}
+
+	.field__btn-hard {
+		width: 13px;
+		height: 13px;
+	}
+	
+	.count-click {
+		margin: 5px 0px -15px 0px;
+	}
+
+}
